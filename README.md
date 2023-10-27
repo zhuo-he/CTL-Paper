@@ -9,14 +9,19 @@
 ## Continual Domain Shift Learning
 - [ICLR 2023] DEJA VU: Continual Model Generalization For Unseen Domains [[arxiv](https://arxiv.org/abs/2301.10418)]
 
-  - 
+  - 提出CDSL setting，并通过data augmentation、pseudo label refine和prototype learning来确保TDA、TDG和FA任务的性能
  
 - [ICCV 2023] Complementary Domain Adaptation and Generalization for Unsupervised Continual Domain Shift Learning [[arxiv](https://arxiv.org/abs/2303.15833)]
 
-- [SGKDD 2023] Domain-Specific Risk Minimization for Domain Generalization [[arxiv](https://arxiv.org/abs/2208.08661)]
-
+  - CDSL setting下，DA与DG方法相互配合，DA为DG提供准确的pseudo label，DG为DA提供更好的初始化模型参数
+ 
 - [CVPR 2021] Adaptive Methods for Real-World Domain Generalization [[arxiv](https://arxiv.org/abs/2103.15796)]
 
+  - DG只是保证模型在unseen domain整体表现良好，而对于一个具体的domain，由于"adaptive gap"的存在而阻碍了泛化性能的提升 
+
+- [SGKDD 2023] Domain-Specific Risk Minimization for Domain Generalization [[arxiv](https://arxiv.org/abs/2208.08661)]
+
+  - 为解决DG的"adaptive gap"问题，推导了一个包含"adaptive gap"的泛化误差上界，从而启发出"test-time model selection"与"test-time retraining"方法
 
 ## Temporal/Envolving Domain Generalization
 - [NeurIPS 2022] Wild-Time: A Benchmark of in-the-Wild Distribution Shift over Time [[arxiv](https://arxiv.org/abs/2211.14238)]
