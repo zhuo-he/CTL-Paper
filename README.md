@@ -19,7 +19,7 @@
 
   - DG只是保证模型在unseen domain整体表现良好，而对于一个具体的domain，由于"adaptive gap"的存在而阻碍了泛化性能的提升 
 
-- [SGKDD 2023] Domain-Specific Risk Minimization for Domain Generalization [[arxiv](https://arxiv.org/abs/2208.08661)]
+- [SIGKDD 2023] Domain-Specific Risk Minimization for Domain Generalization [[arxiv](https://arxiv.org/abs/2208.08661)]
 
   - 为解决DG的"adaptive gap"问题，推导了一个包含"adaptive gap"的泛化误差上界，从而启发出"test-time model selection"与"test-time retraining"方法
 
