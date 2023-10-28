@@ -40,6 +40,8 @@
 
 - Adaptive Invariant Representation Learning for Non-stationary Domain Generalization [[pdf](https://openreview.net/attachment?id=jnZtTUdWyi&name=pdf)]
 
+- Time-sensitive Weight Averaging for Practical Temporal Domain Generalization [[pdf](https://openreview.net/pdf?id=CSm099mlOL)]
+
 
 ## Continual Domain Generalization with Temporal Drift
 - [NeurIPS 2023] Evolving Standardization for Continual Domain Generalization over Temporal Drift
