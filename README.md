@@ -38,6 +38,8 @@
 
 - [arXiv 2023] Prompting-based Efficient Temporal Domain Generalization [[arxiv](https://arxiv.org/abs/2310.02473v1)]
 
+  - 基于prompt的temporal DG方法，specific prompt用来捕捉每个特定domain的信息，temporal prompt用于捕捉时序信息以预测未来domain的信息，global prompt用来捕捉cross domain general的信息 
+
 - Adaptive Invariant Representation Learning for Non-stationary Domain Generalization [[pdf](https://openreview.net/attachment?id=jnZtTUdWyi&name=pdf)]
 
 - Time-sensitive Weight Averaging for Practical Temporal Domain Generalization [[pdf](https://openreview.net/pdf?id=CSm099mlOL)]
