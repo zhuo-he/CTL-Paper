@@ -36,6 +36,8 @@
 
 - [arXiv 2023] CODA: Temporal Domain Generalization via Concept Drift Simulator [[arxiv](https://arxiv.org/abs/2310.01508)]
 
+  - 不同于绝大多数model centric方法，这篇文章提出了一种data centric的方法，通过OOD generation来模拟未来数据，具体通过correlation predictor与data simulator来完成
+
 - [arXiv 2023] Prompting-based Efficient Temporal Domain Generalization [[arxiv](https://arxiv.org/abs/2310.02473v1)]
 
   - 基于prompt的temporal DG方法，specific prompt用来捕捉每个特定domain的信息，temporal prompt用于捕捉时序信息以预测未来domain的信息，global prompt用来捕捉cross domain general的信息 
@@ -43,6 +45,8 @@
 - Adaptive Invariant Representation Learning for Non-stationary Domain Generalization [[pdf](https://openreview.net/attachment?id=jnZtTUdWyi&name=pdf)]
 
 - Time-sensitive Weight Averaging for Practical Temporal Domain Generalization [[pdf](https://openreview.net/pdf?id=CSm099mlOL)]
+  
+  - 一种对时间敏感的权重平均(weight average)方法，对每个时间步的K个model snapshots进行ensemble，并在更加现实的benchmark上进行性能评估
 
 
 ## Continual Domain Generalization with Temporal Drift
