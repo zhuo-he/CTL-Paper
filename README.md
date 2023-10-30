@@ -51,3 +51,12 @@
 
 ## Continual Domain Generalization with Temporal Drift
 - [NeurIPS 2023] Evolving Standardization for Continual Domain Generalization over Temporal Drift
+
+## Causal Structure Learning
+- [ICCV 2023] iDAG: Invariant DAG Searching for Domain Generalization [[paper](https://openaccess.thecvf.com/content/ICCV2023/html/Huang_iDAG_Invariant_DAG_Searching_for_Domain_Generalization_ICCV_2023_paper.html)]
+
+- [CVPR 2021] CausalVAE: Structured Causal Disentanglement in Variational Autoencoder [[arxiv](https://arxiv.org/abs/2004.08697)]
+
+- [ICLR 2022] Learning Temporally Causal Latent Processes from General Temporal Data [[arxiv](https://arxiv.org/abs/2110.05428)]
+
+- [NeurIPS 2022] Temporally Disentangled Representation Learning [[arxiv](https://arxiv.org/abs/2210.13647)]
